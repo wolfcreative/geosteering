@@ -114,7 +114,10 @@
   <footer>
     <div class="uk-container">
       <div class="uk-grid uk-flex-middle" uk-grid>
-        <div class="one uk-width-1-2 uk-width-auto@m">© 2013-2018 Geosteering Ltd<br/>Все права защищены</div>
+        <div class="one uk-width-1-2 uk-width-auto@m">
+            © 2013-2018 Geosteering Ltd<br/>Все права защищены
+            <div class="copyright uk-display-block uk-visible@s">Created with love by <a href="http://wolfcreative.ru">wolfcreative.ru</a></div>
+        </div>
         <div class="two uk-width-expand uk-visible@m"><p>Geosteering - оказание услуг на уровне лидеров отрасли с соблюдением строгих отраслевых требований и международных стандартов качества</p></div>
         <div class="three uk-width-1-2 uk-width-auto@m">
           <a href="tel:+73912050360" class="phone">+7 (391) 205-03-60</a>
@@ -127,9 +130,30 @@
 
   <div class="scripts uk-hidden">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.4/js/uikit.min.js"></script>
-      <script src="js/uikit-icons.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.4/js/uikit-icons.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="js/all.js"></script>
   </div>
+
+    <div id="offcanvas-menu" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active"><a href="#">Главная</a></li>
+                <li class="uk-parent">
+                    <a href="#">Услуги</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Геонавигация</a></li>
+                        <li><a href="#">Инжиниринг по бурению</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Продукты</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Политика качества</a></li>
+                <li><a href="#">Статьи</a></li>
+            </ul>
+
+        </div>
+    </div>
 </body>
 </html>

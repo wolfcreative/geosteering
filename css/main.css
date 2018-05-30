@@ -71,17 +71,20 @@ header .logo{max-width:none;width:auto}
 }
 
 footer{background:#e1e1e1;font:12px/20px "Helvetica Neue",Helvetica,Arial,sans-serif}
-footer .uk-grid{height:100px}
-footer .uk-grid .three a{display:inline-block;font:14px/20px 'OpenSans Regular',sans-serif;color:#222;margin:5px 0;padding-left:25px}
+footer .uk-grid{height:110px}
+footer .uk-grid .three a{color:#222}
+footer .uk-grid .three>a{display:inline-block;font:14px/20px 'OpenSans Regular',sans-serif;margin:5px 0;padding-left:25px}
 footer .uk-grid .three a.phone{background:url(../img/awesome/phone.png) no-repeat left center}
 footer .uk-grid .three a.mail{background:url(../img/awesome/mail.png) no-repeat left 3px}
-@media (min-width:1200px){
-footer .uk-grid .one{width:310px}
-footer .uk-grid .two p{max-width:469px}
-}
+footer .uk-grid .copyright{opacity:.25;margin-bottom:-10px}
+footer .uk-grid .copyright a{font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#000}
 @media (min-width:960px){
 footer .uk-grid .one{width:240px}
 footer .uk-grid .two p{max-width:509px}
+}
+@media (min-width:1200px){
+footer .uk-grid .one{width:310px}
+footer .uk-grid .two p{max-width:469px}
 }
 @media (max-width:959px){
 footer .uk-grid .three{text-align:right}
@@ -112,3 +115,5 @@ h1,.uk-h1{font-size:28px;line-height:34px}
 .uk-button-red{border:1px solid #ec2227;background:#fff;border-radius:2px;color:#3f3f3f;font:16px/58px 'PartnerUltraCondensed',sans-serif;letter-spacing:1.2px;padding:0 50px}
 .uk-button-red span{display:block;margin-bottom:-14px}
 .uk-button-red:hover,.uk-button-red:focus{background:#ec2227;color:#fff}
+
+.uk-offcanvas-bar .uk-nav>li{border-bottom:1px solid #333}
