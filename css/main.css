@@ -18,7 +18,7 @@ header nav>.uk-grid{height:104px}
 header .uk-active .uk-grid{height:60px}
 header .logo{max-width:270px}
 header .uk-navbar-nav>li{margin:0 18px}
-header .uk-navbar-nav>li>a{height:auto;font:14px/18px PartnerUltraCondensed,sans-serif;color:#313113;padding:12px 0 0;text-transform:uppercase;letter-spacing:1.2px;border-bottom:2px solid transparent}
+header .uk-navbar-nav>li>a{height:auto;font:14px/18px PartnerUltraCondensed,sans-serif;color:#313113;padding:12px 0 0;text-transform:uppercase;letter-spacing:1.3px;border-bottom:2px solid transparent}
 header .uk-navbar-nav>li.uk-active>a,header .uk-navbar-nav>li:hover>a,header .uk-navbar-nav>li>a:focus{border-color:#ec2227}
 header .uk-navbar-nav .uk-navbar-dropdown-nav{font-size:13px}
 header .lang a{height:auto;display:inline-block;font:14px/28px 'OpenSans Bold',sans-serif;color:#313113;text-transform:uppercase;padding:0 7px;letter-spacing:1.2px;border-bottom:2px solid transparent;margin-left:4px;text-decoration:none}
