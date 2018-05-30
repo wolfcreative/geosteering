@@ -21,7 +21,7 @@ header .uk-navbar-nav>li{margin:0 18px}
 header .uk-navbar-nav>li>a{height:auto;font:14px/18px PartnerUltraCondensed,sans-serif;color:#313113;padding:12px 0 0;text-transform:uppercase;letter-spacing:1.2px;border-bottom:2px solid transparent}
 header .uk-navbar-nav>li.uk-active>a,header .uk-navbar-nav>li:hover>a,header .uk-navbar-nav>li>a:focus{border-color:#ec2227}
 header .uk-navbar-nav .uk-navbar-dropdown-nav{font-size:13px}
-header .lang a{height:auto;display:inline-block;font:14px/28px 'OpenSans Bold',sans-serif;color:#313113;text-transform:uppercase;padding:0 5px;letter-spacing:1.2px;border-bottom:2px solid transparent;margin-left:4px;text-decoration:none}
+header .lang a{height:auto;display:inline-block;font:14px/28px 'OpenSans Bold',sans-serif;color:#313113;text-transform:uppercase;padding:0 7px;letter-spacing:1.2px;border-bottom:2px solid transparent;margin-left:4px;text-decoration:none}
 header .lang .active,header .lang a:hover,header .lang a:focus{border-color:#ec2227}
 header .uk-dropdown{min-width:250px;padding:15px 20px}
 header .uk-dropdown a{color:#777;line-height:20px}
